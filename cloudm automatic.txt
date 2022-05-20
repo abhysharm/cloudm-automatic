@@ -12,9 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""GCP Cloud Shell script to automate creation of a service account for GWMME.
+"""GCP Cloud Shell script to automate creation of a service account for CloudM.
 
-This script streamlines the installation of GWMME by automating the steps
+This script streamlines the installation of CloudM by automating the steps
 required for obtaining a service account key. Specifically, this script will:
 
 1. Create a GCP project.
@@ -44,9 +44,9 @@ VERSION = "1"
 
 # GCP project IDs must only contain lowercase letters, digits, or hyphens.
 # Projct IDs must start with a letter. Spaces or punctuation are not allowed.
-TOOL_NAME = "GWMME"
-TOOL_NAME_FRIENDLY = "Google Workspace Migration for Microsoft Exchange"
-TOOL_HELP_CENTER_URL = "https://support.google.com/a/answer/6291304"
+TOOL_NAME = "CloudM"
+TOOL_NAME_FRIENDLY = "Cloud Migrator"
+TOOL_HELP_CENTER_URL = "https://support.cloudm.io/hc/en-us"
 # List of APIs to enable and verify.
 APIS = [
     # If admin.googleapis.com is to be included, then it must be the first in
