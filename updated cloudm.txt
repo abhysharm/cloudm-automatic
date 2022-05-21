@@ -502,7 +502,7 @@ async def main():
         "resources to which the service account has access. You should treat "
         "it just like you would a password.")
 
-project_id = await get_project_id()
+  project_id = await get_project_id()
   print("\nNext, follow the instructions to create the OAuth web client "
         f"ID for project {project_id}. You can create this by going to "
         f"<{OAUTH_CONSENT_SCREEN_URL_FORMAT.format(project_id)}>. The "
