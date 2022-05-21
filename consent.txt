@@ -24,8 +24,6 @@ required for obtaining a service account key. Specifically, this script will:
 5. Create and download a service account key
 """
 
-package overview
-
 import (
 	"context"
 	"fmt"
